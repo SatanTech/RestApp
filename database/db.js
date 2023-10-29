@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://api.satanfusion.cloud';
+var url = 'mongodb+srv://sfvpnteam752:1tMKf3H2oPcz0ChN@cluster0.l5btbqh.mongodb.net/?retryWrites=true&w=majority';
 try {
-if(url == 'https://api.satanfusion.cloud') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'mongodb+srv://sfvpnteam752:1tMKf3H2oPcz0ChN@cluster0.l5btbqh.mongodb.net/?retryWrites=true&w=majority') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
